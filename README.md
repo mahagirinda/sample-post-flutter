@@ -1,16 +1,30 @@
-# myapp
+# Simple Post
 
-A new Flutter project.
+## Author
 
-## Getting Started
+**Putu Maha Girinda Praba**\
+Politeknik Negeri Bali
 
-This project is a starting point for a Flutter application.
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://mahagirinda.github.io)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mahagirinda/)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Pembuka
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Aplikasi ini adalah aplikasi mobile berbasis **Flutter** dengan platform blogging sederhana yang memungkinkan pengguna untuk melihat postingan dan komentar pada 
+Aplikasi utama.
+
+Sumber API :\
+[https://github.com/mahagirinda/sample-post](https://github.com/mahagirinda/sample-post)
+
+## Requirement
+
+- Flutter SDK
+- Code editor of your choice (e.g., Visual Studio Code, Android Studio)
+- Git (optional but recommended)
+   
+## API Route List
+- `/posts`: Menampilkan list data Postingan yang diupload user.\
+Parameter `per_page` : untuk menampilkan jumlah data per halaman
+- `/posts/{id}`: Menampilkan postingan berdasarkan id.\
+Parameter `id` : ID Postingan
